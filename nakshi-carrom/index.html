@@ -1,0 +1,146 @@
+<!-- Nakshi Carrom — the page the app's Share button links to, and the app's privacy policy (version 1.1).
+     No scripts, no fonts or pictures from other sites, nothing sent anywhere: the page only shows what is written here.
+     When the app is on Google Play, swap the "Coming soon" note for the Play button kept in the comment below it.
+     © 2026 Aninda Sundar Howlader. All rights reserved. -->
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>নকশি ক্যারম · Nakshi Carrom</title>
+<meta name="description" content="বাংলায় ক্যারম: কম্পিউটারের সঙ্গে বা বন্ধুদের সঙ্গে এক ফোনে। Carrom in Bangla and English, against the computer or with friends on one phone. No internet, no account, no ads.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aninda Studio">
+<meta property="og:title" content="নকশি ক্যারম · Nakshi Carrom">
+<meta property="og:description" content="বাংলায় ক্যারম, এক ফোনে বন্ধুদের সঙ্গে বা কম্পিউটারের সঙ্গে। Carrom in Bangla and English. No internet, no account, no ads.">
+<meta property="og:url" content="https://gru953.github.io/nakshi-carrom/">
+<meta property="og:image" content="https://gru953.github.io/nakshi-carrom/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A carrom board with the pieces set out, beside the words নকশি ক্যারম by Aninda Studio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#23384a">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root {
+    --ground: #f5f8fb; --surface: #ffffff; --surface-high: #eaf1f7; --action: #2a6a90; --on-action: #ffffff;
+    --secondary: #23384a; --accent-text: #7a5c1a; --accent-subtle: #f3ecd8; --straw: #b08a38; --text-high: #18242e;
+    --text-medium: #4b5d6b; --outline: #d3dfe9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #16212b; --surface: #213040; --surface-high: #2a3b4d; --action: #7fb8da; --on-action: #16212b;
+      --secondary: #c9dceb; --accent-text: #e3d3a3; --accent-subtle: #3a3424; --straw: #c9a75a; --text-high: #eef3f8;
+      --text-medium: #a3b6c4; --outline: #3a4d60;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--ground); color: var(--text-high);
+         font: 17px/1.6 "Noto Sans Bengali", "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 28px 16px 48px; }
+  .card { background: var(--surface); border: 1px solid var(--outline); border-radius: 16px; padding: 22px 20px; position: relative; }
+  .card::after { content: ""; position: absolute; inset: 6px; border: 2px dashed var(--straw); border-radius: 12px; opacity: .55; pointer-events: none; }
+  .head { display: flex; align-items: center; gap: 16px; }
+  .head img { width: 72px; height: 72px; border-radius: 18px; flex: none; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; color: var(--secondary); }
+  h2 { font-size: 21px; line-height: 1.3; margin: 30px 0 6px; color: var(--secondary); }
+  h3 { font-size: 17px; margin: 18px 0 2px; color: var(--secondary); }
+  .en { color: var(--text-medium); font-size: 15px; }
+  p.en, div.en { margin: 2px 0 0; }
+  p { margin: 10px 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 4px; padding: 0; list-style: none; }
+  .chips li { background: var(--surface-high); border-radius: 999px; padding: 4px 12px; font-size: 15px; }
+  .chips li span { color: var(--text-medium); }
+  .soon { margin: 18px 0 0; padding: 12px 14px; border-radius: 12px; background: var(--accent-subtle); color: var(--accent-text);
+          text-align: center; font-weight: 600; }
+  .soon small { display: block; font-weight: 400; font-size: 14px; }
+  .btn { display: block; width: 100%; min-height: 52px; margin: 18px 0 0; padding: 12px 16px; border-radius: 12px;
+         background: var(--action); color: var(--on-action); font-size: 18px; font-weight: 600; text-align: center; text-decoration: none; }
+  .btn small { display: block; font-weight: 400; font-size: 14px; opacity: .85; }
+  .policy { margin-top: 22px; }
+  .policy ul { padding-left: 22px; margin: 6px 0; }
+  .policy li { margin: 4px 0; }
+  .lang { display: flex; gap: 8px; margin: 8px 0 0; }
+  .lang a { color: var(--text-high); text-decoration: none; border: 1px solid var(--outline); border-radius: 999px; padding: 2px 12px;
+            background: var(--surface); font-size: 15px; }
+  a { color: var(--action); }
+  footer { margin-top: 28px; color: var(--text-medium); font-size: 14px; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <div class="head">
+      <img src="icon-192.png" alt="" width="72" height="72">
+      <div>
+        <h1>নকশি ক্যারম</h1>
+        <div class="en">Nakshi Carrom</div>
+      </div>
+    </div>
+
+    <p>বাংলায় ক্যারম: কম্পিউটারের সঙ্গে চার স্তরে, অথবা বন্ধুদের সঙ্গে এক ফোনে। একক বা দ্বৈত, আন্তর্জাতিক ক্যারম ফেডারেশনের নিয়মে।</p>
+    <p class="en">Carrom in Bangla and English: against the computer at four levels, or with friends on one phone. Singles or doubles, by the Laws of the International Carrom Federation.</p>
+
+    <ul class="chips">
+      <li>ইন্টারনেট লাগে না <span>· No internet</span></li>
+      <li>অ্যাকাউন্ট লাগে না <span>· No account</span></li>
+      <li>বিজ্ঞাপন নেই <span>· No ads</span></li>
+      <li>নজরদারি নেই <span>· No tracking</span></li>
+    </ul>
+
+    <div class="soon">শীঘ্রই গুগল প্লেতে<small>Coming soon to Google Play</small></div>
+    <!-- When the app is published, replace the line above with:
+    <a class="btn" href="https://play.google.com/store/apps/details?id=bd.com.anindastudio.nakshicarrom" rel="noopener noreferrer">গুগল প্লে থেকে নকশি ক্যারম নিন<small>Get Nakshi Carrom on Google Play</small></a>
+    -->
+  </div>
+
+  <section class="policy" id="privacy">
+    <h2>গোপনীয়তা নীতি <span class="en">· Privacy policy</span></h2>
+    <p class="en">কার্যকর ৬ নভেম্বর ২০২৬ · Effective 6 November 2026</p>
+    <nav class="lang"><a href="#bn">বাংলা</a><a href="#en" lang="en">English</a></nav>
+
+    <div id="bn">
+      <h3>সংক্ষেপে</h3>
+      <p>নকশি ক্যারম কোনো ব্যক্তিগত তথ্য সংগ্রহ করে না, বিক্রি করে না, কাউকে দেয় না। এতে অ্যাকাউন্ট, বিজ্ঞাপন, ব্যবহার-বিশ্লেষণ বা নজরদারি নেই। অ্যাপটি ইন্টারনেট ব্যবহার করে না এবং কোনো অনুমতি চায় না।</p>
+      <h3>আমরা কে</h3>
+      <p>নকশি ক্যারম বানিয়েছে Aninda Studio™, অনিন্দ্য সুন্দর হাওলাদারের সফটওয়্যার স্টুডিও। তিনিই অ্যাপটির নির্মাতা, মালিক ও স্বত্বাধিকারী। এখানে “আমরা” মানে Aninda Studio।</p>
+      <h3>যা আপনার ফোনেই থাকে</h3>
+      <p>আপনার বেছে নেওয়া নাম ও নকশি আদ্যক্ষর, সেটিংস এবং খেলার পরিসংখ্যান অ্যাপটি শুধু ফোনে নিজের জায়গায় রাখে। এগুলো আমাদের বা আর কারও কাছে কখনো যায় না। অ্যাপ মুছে ফেললে, বা অ্যান্ড্রয়েডের সেটিংসে অ্যাপের ডেটা মুছলে, সব মুছে যায়।</p>
+      <h3>ব্যাকআপ ও শেয়ার</h3>
+      <p>আপনার ফোনে অ্যান্ড্রয়েডের নিজের ব্যাকআপ চালু থাকলে অ্যান্ড্রয়েড এই সেটিংস ও পরিসংখ্যান আপনার নিজের গুগল অ্যাকাউন্টে রাখতে পারে, গুগলের গোপনীয়তা নীতি অনুযায়ী। আমরা তা দেখতে পাই না।</p>
+      <p>খেলার ফল শেয়ার করলে অ্যান্ড্রয়েডের শেয়ার-তালিকা সেই বার্তা (এই পাতার লিংকসহ) শুধু আপনার বেছে নেওয়া অ্যাপ বা মানুষের কাছে পাঠায়।</p>
+      <h3>গুগল প্লে</h3>
+      <p>অ্যাপ ডাউনলোডের কাজটি গুগল তার নিজের গোপনীয়তা নীতি মেনে করে। গুগল নির্মাতাদের মোট ইনস্টলের মতো সারসংক্ষেপ দেয়, আর আপনি গুগলের সঙ্গে ব্যবহার ও ত্রুটির তথ্য ভাগ করতে রাজি থাকলে অ্যাপ বন্ধ হয়ে যাওয়ার প্রতিবেদন দেয়। এসব প্রতিবেদনে আপনি কে, তা জানা যায় না।</p>
+      <h3>শিশু</h3>
+      <p>অ্যাপটি নিজে কারও কাছ থেকে, শিশুদের কাছ থেকেও, কোনো ব্যক্তিগত তথ্য নেয় না।</p>
+      <h3>এই নীতির পরিবর্তন ও যোগাযোগ</h3>
+      <p>নীতি বদলালে নতুন তারিখসহ এই পাতায় দেওয়া হবে। গোপনীয়তা নিয়ে কোনো প্রশ্ন থাকলে অ্যাপের গুগল প্লে পাতায় দেওয়া নির্মাতার ইমেইলে লিখুন।</p>
+    </div>
+
+    <div id="en" lang="en">
+      <h3>In short</h3>
+      <p>Nakshi Carrom does not collect, sell or share any personal data. There are no accounts, no adverts, no analytics and no tracking. The app does not use the internet and asks for no permissions.</p>
+      <h3>Who we are</h3>
+      <p>Nakshi Carrom is made by Aninda Studio™, the software studio of Aninda Sundar Howlader, who is the developer, owner and copyright holder of the app. In this policy, “we” means Aninda Studio.</p>
+      <h3>What stays on your phone</h3>
+      <p>The name and stitched initial you choose, your settings and your game statistics are saved only in the app’s own storage on your phone. They are never sent to us or to anyone else. Uninstalling the app, or clearing its data in Android settings, deletes everything.</p>
+      <h3>Backup and sharing</h3>
+      <p>If Android’s own backup is turned on for your phone, Android may copy these settings and statistics to your own Google account, under Google’s privacy policy. We never see them.</p>
+      <p>When you share a score, Android’s share sheet sends the message (with a link to this page) only to the app or person you choose.</p>
+      <h3>Google Play</h3>
+      <p>When you download the app, Google handles the download under its own privacy policy. Google gives developers summary figures such as the number of installs and, if you have agreed to share usage and diagnostics with Google, reports of app crashes. These reports do not tell us who you are.</p>
+      <h3>Children</h3>
+      <p>The app itself does not collect personal data from anyone, including children.</p>
+      <h3>Changes and contact</h3>
+      <p>If this policy changes, the new version will be posted on this page with a new effective date. For any question about privacy, please write to the developer email address shown on the app’s Google Play page.</p>
+    </div>
+  </section>
+
+  <footer>© ২০২৬ অনিন্দ্য সুন্দর হাওলাদার। সর্বস্বত্ব সংরক্ষিত। · © 2026 Aninda Sundar Howlader. All rights reserved.<br>Nakshi Carrom by Aninda Studio™</footer>
+</main>
+</body>
+</html>
