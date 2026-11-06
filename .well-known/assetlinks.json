@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "bd.com.anindastudio.nakshitash",
+      "sha256_cert_fingerprints": [
+        "58:CF:D5:D9:74:16:49:D7:BB:FF:32:7B:48:9C:A7:15:6A:A2:51:9D:45:E9:91:5C:3A:CB:5E:EA:83:E8:C2:A9",
+        "E6:8C:9D:A1:2C:B7:68:17:B6:6F:86:40:9B:70:FF:27:AE:D1:68:D7:04:03:AB:F2:59:2B:B4:ED:D6:08:65:CD"
+      ]
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "updated": "2026-10-06",
+  "relays": [
+    "wss://relay.primal.net",
+    "wss://nostr.mom",
+    "wss://nostr-01.yakihonne.com",
+    "wss://nostr.data.haus",
+    "wss://relay.angor.io"
+  ]
+}
